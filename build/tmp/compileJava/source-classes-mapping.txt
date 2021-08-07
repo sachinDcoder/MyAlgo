@@ -26,3 +26,5 @@ myalgo/dp/lcs/LcsMain.java
  myalgo.dp.lcs.LcsMain
 myalgo/dp/wineselling/WineSellingMain.java
  myalgo.dp.wineselling.WineSellingMain
+myalgo/dp/countingsequence/CountingSeqMain.java
+ myalgo.dp.countingsequence.CountingSeqMain
