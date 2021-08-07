@@ -1,7 +1,31 @@
 
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-[
-+src/main/java/myalgo/dp/fibonacci/Main.java,d\0\d09d09b51df2b16bbacc4050599b1e0a5129f701
+b
+2src/main/java/myalgo/dp/nkladder/NkLadderMain.java,b\1\b1432fc5c297332b73fc1dc040f538e790f85938
+d
+4src/main/java/myalgo/dp/fibonacci/FibonacciMain.java,2\8\28211592a233cab30aee6ba852b236a6ba1e1ad2
+f
+6src/main/java/myalgo/dp/coinchange/CoinChangeMain.java,4\d\4d2f229fc81ed6eaf092c30ef765959c03826556
+f
+6src/main/java/myalgo/dp/rodcutting/RodCuttingMain.java,f\5\f58d57b934389a5179e012e7ed94f1acdb18ca7c
+e
+5src/main/java/myalgo/dp/minimumjumps/MinJumpMain.java,4\a\4a43e751d23bfaa8d59ba88ca4c41e6d1fc30a2a
 Z
-*src/main/java/myalgo/dp/nkladder/Main.java,0\2\02299caa62688de273a8f2ae49d5a12584877f4c
+*src/main/java/myalgo/dp/test/TestMain.java,2\0\202a87bffd8872626ded22d19f454d5496497b01
+l
+<src/main/java/myalgo/dp/frogminimumcost/FrogMinCostMain.java,0\1\01f23d01ad84398fc19dd425ccd0154b8528c601
+n
+>src/main/java/myalgo/dp/maximumnonadjsum/MaxNonAdjSumMain.java,0\7\07e0ec2149af921d27deac6bf966b69925b71ab0
+n
+>src/main/java/myalgo/dp/longestincreasingsequence/LisMain.java,3\6\364dd0b2513f949d83ea786f123b5dd747d72793
+_
+/src/main/java/myalgo/dp/boxstacking/Cuboid.java,0\3\034609c2c70e19e786094c1244c8ef5a10643263
+h
+8src/main/java/myalgo/dp/boxstacking/BoxStackingMain.java,a\d\adf66a2906a52c6df8f791c5ccb91cc199d9ed28
+l
+<src/main/java/myalgo/dp/countingtrees/CountingTreesMain.java,4\4\44648c00785db7b3fdc36e6323de417bf22498ea
+X
+(src/main/java/myalgo/dp/lcs/LcsMain.java,3\e\3e299164c60e0b1f67ee148c8e4370c143c4d4a7
+h
+8src/main/java/myalgo/dp/wineselling/WineSellingMain.java,b\d\bdb8a81d7ab110b061159a9f3f6b0cd9d36b4c14

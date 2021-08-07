@@ -1,0 +1,142 @@
+class Cuboid {
+    int width;
+    int length;
+    int height;
+
+    Cuboid(int width, int length, int height) {
+        this.width = width;
+        this.length = length;
+        this.height = height;
+    }
+}
+
+class Solution {
+    private boolean checkCondition(Cuboid currCuboid, Cuboid tempCuboid) {
+        List<Integer> currList = new ArrayList<Integer>(){{
+            add(currCuboid.width);
+            add(currCuboid.length);
+            add(currCuboid.height);
+        }}.stream().sorted().collect(Collectors.toList());
+
+        List<Integer> tempList = new ArrayList<Integer>(){{
+            add(currCuboid.width);
+            add(currCuboid.length);
+            add(currCuboid.height);
+        }}.stream().sorted().collect(Collectors.toList());
+
+        if(currList.get(0) >= tempList.get(0) && currList.get(1) >= tempList.get(1) && currList.get(2) >= tempList.get(2)) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public int maxHeight(int[][] cuboids) {
+        int n = cuboids.length;
+        int maxAns = 0;
+
+        List<Cuboid> cuboidList = new ArrayList<>();
+
+        for(int i = 0; i < n; i++) {
+            cuboidList.add(new Cuboid(cuboids[i][0], cuboids[i][1], cuboids[i][2]));
+        }
+
+        List<Cuboid> sortedWidthCuboids = cuboidList
+            .stream()
+            .sorted(Comparator.comparingInt(a -> a.width))
+            .collect(Collectors.toList());
+
+        // sortedCuboids.stream().forEach(a -> System.out.println(a.width));
+
+        int[] dpWidth = new int[n];
+        Arrays.fill(dpWidth, 0);
+        dpWidth[0] = sortedWidthCuboids.get(0).width;
+
+        for(int i = 1; i < n; i++) {
+            Cuboid currCuboid = sortedWidthCuboids.get(i);
+            dpWidth[i] = currCuboid.width;
+
+            for(int j = 0; j < i; j++) {
+                Cuboid tempCuboid = sortedWidthCuboids.get(j);
+
+                if(checkCondition(currCuboid, tempCuboid)) {
+                    dpWidth[i] = Integer.max(dpWidth[i], currCuboid.width + dpWidth[j]);
+
+                }
+                // System.out.println("test dp[i] " + i + " " + dp[i] + " " + dp[j] + " " + currCuboid.width);
+
+            }
+            // System.out.println("test " + i + " " + Arrays.toString(dp));
+
+        }
+
+        // System.out.println(Arrays.toString(dp));
+        maxAns = dpWidth[n - 1];
+
+        List<Cuboid> sortedHeightCuboids = cuboidList
+            .stream()
+            .sorted(Comparator.comparingInt(a -> a.height))
+            .collect(Collectors.toList());
+
+        // sortedCuboids.stream().forEach(a -> System.out.println(a.width));
+
+        int[] dpHeight = new int[n];
+        Arrays.fill(dpHeight, 0);
+        dpHeight[0] = sortedHeightCuboids.get(0).height;
+
+        for(int i = 1; i < n; i++) {
+            Cuboid currCuboid = sortedHeightCuboids.get(i);
+            dpHeight[i] = currCuboid.height;
+
+            for(int j = 0; j < i; j++) {
+                Cuboid tempCuboid = sortedHeightCuboids.get(j);
+
+                if(checkCondition(currCuboid, tempCuboid)) {
+                    dpHeight[i] = Integer.max(dpHeight[i], currCuboid.height + dpHeight[j]);
+
+                }
+                // System.out.println("test dp[i] " + i + " " + dp[i] + " " + dp[j] + " " + currCuboid.width);
+
+            }
+            // System.out.println("test " + i + " " + Arrays.toString(dp));
+
+        }
+
+        // System.out.println(Arrays.toString(dp));
+        maxAns = Integer.max(maxAns, dpHeight[n - 1]);
+
+        List<Cuboid> sortedLengthCuboids = cuboidList
+            .stream()
+            .sorted(Comparator.comparingInt(a -> a.length))
+            .collect(Collectors.toList());
+
+        // sortedCuboids.stream().forEach(a -> System.out.println(a.width));
+
+        int[] dpLength = new int[n];
+        Arrays.fill(dpLength, 0);
+        dpLength[0] = sortedLengthCuboids.get(0).length;
+
+        for(int i = 1; i < n; i++) {
+            Cuboid currCuboid = sortedLengthCuboids.get(i);
+            dpLength[i] = currCuboid.length;
+
+            for(int j = 0; j < i; j++) {
+                Cuboid tempCuboid = sortedLengthCuboids.get(j);
+
+                if(checkCondition(currCuboid, tempCuboid)) {
+                    dpLength[i] = Integer.max(dpLength[i], currCuboid.length + dpLength[j]);
+
+                }
+                // System.out.println("test dp[i] " + i + " " + dp[i] + " " + dp[j] + " " + currCuboid.width);
+
+            }
+            // System.out.println("test " + i + " " + Arrays.toString(dp));
+
+        }
+
+        // System.out.println(Arrays.toString(dp));
+        maxAns = Integer.max(maxAns, dpLength[n - 1]);
+
+        return maxAns;
+    }
+}

@@ -2,5 +2,27 @@ myalgo/dp/nkladder/NkLadderMain.java
  myalgo.dp.nkladder.NkLadderMain
 myalgo/dp/fibonacci/FibonacciMain.java
  myalgo.dp.fibonacci.FibonacciMain
+myalgo/dp/minimumjumps/MinJumpMain.java
+ myalgo.dp.minimumjumps.MinJumpMain
+myalgo/dp/rodcutting/RodCuttingMain.java
+ myalgo.dp.rodcutting.RodCuttingMain
 myalgo/dp/coinchange/CoinChangeMain.java
  myalgo.dp.coinchange.CoinChangeMain
+myalgo/dp/test/TestMain.java
+ myalgo.dp.test.TestMain
+myalgo/dp/frogminimumcost/FrogMinCostMain.java
+ myalgo.dp.frogminimumcost.FrogMinCostMain
+myalgo/dp/maximumnonadjsum/MaxNonAdjSumMain.java
+ myalgo.dp.maximumnonadjsum.MaxNonAdjSumMain
+myalgo/dp/longestincreasingsequence/LisMain.java
+ myalgo.dp.longestincreasingsequence.LisMain
+myalgo/dp/boxstacking/Cuboid.java
+ myalgo.dp.boxstacking.Cuboid
+myalgo/dp/boxstacking/BoxStackingMain.java
+ myalgo.dp.boxstacking.BoxStackingMain
+myalgo/dp/countingtrees/CountingTreesMain.java
+ myalgo.dp.countingtrees.CountingTreesMain
+myalgo/dp/lcs/LcsMain.java
+ myalgo.dp.lcs.LcsMain
+myalgo/dp/wineselling/WineSellingMain.java
+ myalgo.dp.wineselling.WineSellingMain

@@ -1,8 +1,8 @@
 
-X	java:S125L"<This block of commented-out lines of code should be removed.(‚íãï8×Úßª¬/
 U	java:S106T"9Replace this use of System.out or System.err by a logger.(ñÍæ8‡ëèª¬/
 ]	java:S125R"<This block of commented-out lines of code should be removed.(£ÃĞ¥şÿÿÿÿ8šÓêª¬/
-_
-java:S1144)"=Remove this unused private "countWaysUsingDpBottomUp" method.(²œ¡Æûÿÿÿÿ8Øëª¬/
 K
 java:S1121&".Extract the assignment out of this expression.(¶›ç‘8ÌÂ©ª¬/
+_
+java:S1144)"=Remove this unused private "countWaysUsingDpBottomUp" method.(²œ¡Æûÿÿÿÿ8Øëª¬/
+X	java:S125L"<This block of commented-out lines of code should be removed.(‚íãï8×Úßª¬/
