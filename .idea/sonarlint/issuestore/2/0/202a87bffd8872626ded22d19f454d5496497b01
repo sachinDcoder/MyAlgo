@@ -1,4 +1,4 @@
 
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(Žì¨¬8±‡ƒŸ®/
 >
 java:S1116"Remove this empty statement.(Åñ­õþÿÿÿÿ8ì–”Ÿ®/
+U	java:S106	"9Replace this use of System.out or System.err by a logger.(Žì¨¬8±‡ƒŸ®/

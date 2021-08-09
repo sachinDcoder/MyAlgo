@@ -1,8 +1,8 @@
 
+]	java:S125"<This block of commented-out lines of code should be removed.(•ğÙ¸ûÿÿÿÿ8¯çÅë°/
+T	java:S106["9Replace this use of System.out or System.err by a logger.(²µ¸@8ÙÌ—ë°/
+9
+java:S1643@"Use a StringBuilder instead.(†ã°è8å¢ºë°/
 Z	java:S106W"9Replace this use of System.out or System.err by a logger.(ì×Ÿ×ÿÿÿÿÿ8è¨µé°/
 Z	java:S106F"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ8å¢ºë°/
 Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(Í¶‡½ûÿÿÿÿ8Ø°Êé°/
-9
-java:S1643@"Use a StringBuilder instead.(†ã°è8å¢ºë°/
-]	java:S125"<This block of commented-out lines of code should be removed.(•ğÙ¸ûÿÿÿÿ8¯çÅë°/
-T	java:S106["9Replace this use of System.out or System.err by a logger.(²µ¸@8ÙÌ—ë°/

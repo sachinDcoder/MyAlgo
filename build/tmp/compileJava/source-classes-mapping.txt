@@ -28,3 +28,5 @@ myalgo/dp/wineselling/WineSellingMain.java
  myalgo.dp.wineselling.WineSellingMain
 myalgo/dp/countingsequence/CountingSeqMain.java
  myalgo.dp.countingsequence.CountingSeqMain
+myalgo/dp/knapsack/KnapsackMain.java
+ myalgo.dp.knapsack.KnapsackMain

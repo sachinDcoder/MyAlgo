@@ -1,7 +1,7 @@
 
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Ï»ùùÿÿÿÿ8ÄœïÓ¬/
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(¦‡ó›8ªÍ­Ó¬/
 O
 java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8…š†Ÿ®/
-U	java:S1062"9Replace this use of System.out or System.err by a logger.(Ôêîô8¥êåÒ¬/
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¦‡ó›8ªÍ­Ó¬/
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(Ï»ùùÿÿÿÿ8ÄœïÓ¬/
 T	java:S1066"9Replace this use of System.out or System.err by a logger.(ò½÷i8ÄœïÓ¬/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(Ôêîô8¥êåÒ¬/
