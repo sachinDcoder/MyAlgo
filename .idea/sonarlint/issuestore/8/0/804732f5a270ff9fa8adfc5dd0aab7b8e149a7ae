@@ -1,17 +1,17 @@
 
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÂÆ°8¤ŒŸ“²/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(½äù8¤ŒŸ“²/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤ŒŸ“²/
 K
 java:S1121G".Extract the assignment out of this expression.(Û¾¥û8¤ŒŸ“²/
-P
-java:S1121E".Extract the assignment out of this expression.(ú’şÿÿÿÿ8¤ŒŸ“²/
 ]	java:S125
 "<This block of commented-out lines of code should be removed.(¹Ô×Òûÿÿÿÿ8“ÄÎ“²/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õşöãûÿÿÿÿ8Š¤á“²/
 K
 java:S1121=".Extract the assignment out of this expression.(ç¦à²8¤ŒŸ“²/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¤ŒŸ“²/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(½äù8¤ŒŸ“²/
 U	java:S106"9Replace this use of System.out or System.err by a logger.(İ¿â¦8¤ŒŸ“²/
 U	java:S1063"9Replace this use of System.out or System.err by a logger.(İ¿â¦8‹…”²/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Õşöãûÿÿÿÿ8Š¤á“²/
+P
+java:S1121E".Extract the assignment out of this expression.(ú’şÿÿÿÿ8¤ŒŸ“²/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÀÂÆ°8¤ŒŸ“²/
 P
 java:S1121;".Extract the assignment out of this expression.(ÅôÍ›ÿÿÿÿÿ8ªË’²/
