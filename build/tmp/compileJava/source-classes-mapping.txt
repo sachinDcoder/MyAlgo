@@ -1,100 +1,126 @@
-myalgo/stackandqueue/slidingwindow/SlidingWindowMain.java
- myalgo.stackandqueue.slidingwindow.SlidingWindowMain
 myalgo/binarysearch/squareroot/SqRootMain.java
  myalgo.binarysearch.squareroot.SqRootMain
 myalgo/prioritqueue/findingcars/Car.java
  myalgo.prioritqueue.findingcars.Car
+myalgo/graph/graphlist/GraphListRepMain.java
+ myalgo.graph.graphlist.GraphListRepMain
+myalgo/dp/fibonacci/FibonacciMain.java
+ myalgo.dp.fibonacci.FibonacciMain
+myalgo/binarysearch/rotatingarr/RotatingMain.java
+ myalgo.binarysearch.rotatingarr.RotatingMain
+myalgo/slidingwindow/housing/HousingMain.java
+ myalgo.slidingwindow.housing.HousingMain
+myalgo/dp/lcs/LcsMain.java
+ myalgo.dp.lcs.LcsMain
+myalgo/dp/test/TestMain.java
+ myalgo.dp.test.TestMain
+myalgo/trie/suffixtrie/SuffixTrieMain.java
+ myalgo.trie.suffixtrie.SuffixTrieMain
+myalgo/recursion/permutation/PermutationMain.java
+ myalgo.recursion.permutation.PermutationMain
+myalgo/dp/boxstacking/BoxStackingMain.java
+ myalgo.dp.boxstacking.BoxStackingMain
+myalgo/trie/suffixtrie/Node.java
+ myalgo.trie.suffixtrie.Node
+myalgo/trie/maxxor/MaxXorMain.java
+ myalgo.trie.maxxor.MaxXorMain
+myalgo/trie/suffixtrie/SuffixTrie.java
+ myalgo.trie.suffixtrie.SuffixTrie
+myalgo/prioritqueue/findingcars/FindingCarsMain.java
+ myalgo.prioritqueue.findingcars.FindingCarsMain
+myalgo/binarysearch/minpair/MinPairMain.java
+ myalgo.binarysearch.minpair.MinPairMain
+myalgo/trie/cutelittlecat/CuteCatMain.java
+ myalgo.trie.cutelittlecat.CuteCatMain
+myalgo/hashing/anagrams/CountAnagramsMain.java
+ myalgo.hashing.anagrams.CountAnagramsMain
+myalgo/dp/boxstacking/Cuboid.java
+ myalgo.dp.boxstacking.Cuboid
+myalgo/recursion/sudoku/SudokuMain.java
+ myalgo.recursion.sudoku.SudokuMain
+myalgo/trie/maxxor/Node.java
+ myalgo.trie.maxxor.Node
+myalgo/hashing/quickbrownfox/QuickBrownFoxMain.java
+ myalgo.hashing.quickbrownfox.QuickBrownFoxMain
+myalgo/graph/snakesandladders/SnakesLadderMain.java
+ myalgo.graph.snakesandladders.SnakesLadderMain
+myalgo/trie/trie/Trie.java
+ myalgo.trie.trie.Trie
+myalgo/trie/trie/TrieMain.java
+ myalgo.trie.trie.TrieMain
+myalgo/stackandqueue/notrepeating/NonRepeatingMain.java
+ myalgo.stackandqueue.notrepeating.NonRepeatingMain
+myalgo/dp/coinchange/CoinChangeMain.java
+ myalgo.dp.coinchange.CoinChangeMain
+myalgo/graph/snakesandladders/Graph.java
+ myalgo.graph.snakesandladders.Graph
+myalgo/dp/frogminimumcost/FrogMinCostMain.java
+ myalgo.dp.frogminimumcost.FrogMinCostMain
+myalgo/stackandqueue/slidingwindow/SlidingWindowMain.java
+ myalgo.stackandqueue.slidingwindow.SlidingWindowMain
+myalgo/graph/graphlist/Graph.java
+ myalgo.graph.graphlist.Graph
 myalgo/recursion/keypad/KeypadMain.java
  myalgo.recursion.keypad.KeypadMain
 myalgo/dp/countingsequence/CountingSeqMain.java
  myalgo.dp.countingsequence.CountingSeqMain
 myalgo/binarysearch/angrybird/AngryBirdsMain.java
  myalgo.binarysearch.angrybird.AngryBirdsMain
-myalgo/dp/fibonacci/FibonacciMain.java
- myalgo.dp.fibonacci.FibonacciMain
 myalgo/dp/nkladder/NkLadderMain.java
  myalgo.dp.nkladder.NkLadderMain
-myalgo/binarysearch/rotatingarr/RotatingMain.java
- myalgo.binarysearch.rotatingarr.RotatingMain
-myalgo/slidingwindow/housing/HousingMain.java
- myalgo.slidingwindow.housing.HousingMain
+myalgo/test/Codechef.java
+ myalgo.test.Codechef
 myalgo/binarysearch/frequentoccurrence/FreqOccMain.java
  myalgo.binarysearch.frequentoccurrence.FreqOccMain
-myalgo/dp/lcs/LcsMain.java
- myalgo.dp.lcs.LcsMain
-myalgo/dp/test/TestMain.java
- myalgo.dp.test.TestMain
-myalgo/dp/frogminimumcost/FrogMinCostMain.java
- myalgo.dp.frogminimumcost.FrogMinCostMain
+myalgo/test/TestMain.java
+ myalgo.test.TestMain
 myalgo/hashing/countingtriangle/CountTriangleMain.java
  myalgo.hashing.countingtriangle.CountTriangleMain
 myalgo/dp/knapsack/KnapsackMain.java
  myalgo.dp.knapsack.KnapsackMain
-myalgo/recursion/permutation/PermutationMain.java
- myalgo.recursion.permutation.PermutationMain
-myalgo/dp/boxstacking/BoxStackingMain.java
- myalgo.dp.boxstacking.BoxStackingMain
 myalgo/recursion/subsequence/SubSeqMain.java
  myalgo.recursion.subsequence.SubSeqMain
 myalgo/dp/maximumnonadjsum/MaxNonAdjSumMain.java
  myalgo.dp.maximumnonadjsum.MaxNonAdjSumMain
-myalgo/prioritqueue/findingcars/FindingCarsMain.java
- myalgo.prioritqueue.findingcars.FindingCarsMain
-myalgo/binarysearch/minpair/MinPairMain.java
- myalgo.binarysearch.minpair.MinPairMain
+myalgo/graph/bfs/ShortedDistanceUsingBfsMain.java
+ myalgo.graph.bfs.ShortedDistanceUsingBfsMain
+myalgo/trie/cutelittlecat/Node.java
+ myalgo.trie.cutelittlecat.Node
 myalgo/dp/rodcutting/RodCuttingMain.java
  myalgo.dp.rodcutting.RodCuttingMain
+myalgo/graph/bfs/Graph.java
+ myalgo.graph.bfs.Graph
 myalgo/stackandqueue/redundantparanthesis/RedundantParaMain.java
  myalgo.stackandqueue.redundantparanthesis.RedundantParaMain
-myalgo/hashing/anagrams/CountAnagramsMain.java
- myalgo.hashing.anagrams.CountAnagramsMain
 myalgo/recursion/generatebrackets/GenerateBracketsMain.java
  myalgo.recursion.generatebrackets.GenerateBracketsMain
-myalgo/dp/boxstacking/Cuboid.java
- myalgo.dp.boxstacking.Cuboid
 myalgo/dp/countingtrees/CountingTreesMain.java
  myalgo.dp.countingtrees.CountingTreesMain
-myalgo/hashing/quickbrownfox/QuickBrownFoxMain.java
- myalgo.hashing.quickbrownfox.QuickBrownFoxMain
 myalgo/dp/wineselling/WineSellingMain.java
  myalgo.dp.wineselling.WineSellingMain
-myalgo/stackandqueue/notrepeating/NonRepeatingMain.java
- myalgo.stackandqueue.notrepeating.NonRepeatingMain
-myalgo/dp/coinchange/CoinChangeMain.java
- myalgo.dp.coinchange.CoinChangeMain
+myalgo/trie/maxxor/Trie.java
+ myalgo.trie.maxxor.Trie
+myalgo/trie/trie/Node.java
+ myalgo.trie.trie.Node
 myalgo/recursion/subsetsum/SubsetSumMain.java
  myalgo.recursion.subsetsum.SubsetSumMain
 myalgo/dp/longestincreasingsequence/LisMain.java
  myalgo.dp.longestincreasingsequence.LisMain
 myalgo/dp/minimumjumps/MinJumpMain.java
  myalgo.dp.minimumjumps.MinJumpMain
-myalgo/recursion/sudoku/SudokuMain.java
- myalgo.recursion.sudoku.SudokuMain
-myalgo/test/TestMain.java
- myalgo.test.TestMain
-myalgo/trie/trie/Node.java
- myalgo.trie.trie.Node
-myalgo/test/Codechef.java
- myalgo.test.Codechef
-myalgo/trie/trie/Trie.java
- myalgo.trie.trie.Trie
-myalgo/trie/trie/TrieMain.java
- myalgo.trie.trie.TrieMain
-myalgo/trie/suffixtrie/SuffixTrie.java
- myalgo.trie.suffixtrie.SuffixTrie
-myalgo/trie/suffixtrie/Node.java
- myalgo.trie.suffixtrie.Node
-myalgo/trie/suffixtrie/SuffixTrieMain.java
- myalgo.trie.suffixtrie.SuffixTrieMain
-myalgo/trie/cutelittlecat/CuteCatMain.java
- myalgo.trie.cutelittlecat.CuteCatMain
-myalgo/trie/maxxor/Trie.java
- myalgo.trie.maxxor.Trie
-myalgo/trie/maxxor/Node.java
- myalgo.trie.maxxor.Node
 myalgo/trie/cutelittlecat/Trie.java
  myalgo.trie.cutelittlecat.Trie
-myalgo/trie/cutelittlecat/Node.java
- myalgo.trie.cutelittlecat.Node
-myalgo/trie/maxxor/MaxXorMain.java
- myalgo.trie.maxxor.MaxXorMain
+myalgo/graph/dfs/Graph.java
+ myalgo.graph.dfs.Graph
+myalgo/graph/dfs/DfsMain.java
+ myalgo.graph.dfs.DfsMain
+myalgo/graph/cycledetection/directedgraph/DirectedGraph.java
+ myalgo.graph.cycledetection.directedgraph.DirectedGraph
+myalgo/graph/cycledetection/directedgraph/DirectedGraphCycleMain.java
+ myalgo.graph.cycledetection.directedgraph.DirectedGraphCycleMain
+myalgo/graph/dijkshtra/DijkshtraMain.java
+ myalgo.graph.dijkshtra.DijkshtraMain
+myalgo/graph/dijkshtra/Graph.java
+ myalgo.graph.dijkshtra.Graph
+myalgo/graph/dijkshtra/Node.java
+ myalgo.graph.dijkshtra.Node

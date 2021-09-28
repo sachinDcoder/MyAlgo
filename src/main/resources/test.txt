@@ -257,3 +257,126 @@ class Solution {
         flatten(root.right);
     }
 }
+
+
+/////////////////////////////////////////// graph - snakes and ladders
+
+https://leetcode.com/problems/snakes-and-ladders/
+
+
+class Graph{
+    int noOfVertex;
+    ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+
+    public Graph(int noOfVertex) {
+        this.noOfVertex = noOfVertex;
+
+        for(int i = 0; i <= noOfVertex * noOfVertex; i++) {
+            this.adj.add(new ArrayList<>());
+        }
+    }
+
+    public void addEdge(int v, int u) {
+        adj.get(v).add(u);
+    }
+
+    public int getShortedPath(int src, int dist) {
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(src);
+        boolean[] isVisited = new boolean[noOfVertex * noOfVertex + 1];
+        Arrays.fill(isVisited, false);
+
+        int[] distance = new int[noOfVertex * noOfVertex + 1];
+        Arrays.fill(distance, -1);
+        distance[src] = 0;
+
+        while(!queue.isEmpty()) {
+            int curr = queue.poll();
+
+            for(Integer nbr: adj.get(curr)) {
+                if(!isVisited[curr]) {
+                    queue.add(nbr);
+                    distance[nbr] = distance[curr] + 1;
+                    isVisited[nbr] = true;
+                }
+            }
+        }
+
+        return distance[dist];
+    }
+
+    public void printGraph() {
+        for(ArrayList<Integer> adjList : adj) {
+            System.out.print("head");
+            for(Integer vertex : adjList) {
+                System.out.print("->" + vertex);
+            }
+            System.out.println();
+        }
+    }
+}
+
+class Solution {
+
+    public int snakesAndLadders(int[][] board) {
+        int n = board[0].length;
+        int grid = 1;
+
+        Graph graph = new Graph(n);
+
+        for(int i = n, k = 1; i >= 0; i--, k++) {
+            int dice = 1;
+            for(int j = 1; j <= n; j++) {
+                int y = (dice + j) % 6;
+                if(y == 0) {
+                    y = 6;
+                }
+
+                int x = (n + (dice + j) / 7);
+                if(x > n || (grid + dice > n * n)) {
+                    break;
+                }
+
+                if(board[x - 1][y - 1] == -1) {
+                    graph.addEdge(grid, grid + dice);
+                } else {
+                    graph.addEdge(grid, board[x - 1][y - 1]);
+                }
+                grid++;
+                dice++;
+            }
+        }
+
+        graph.printGraph();
+
+        return graph.getShortedPath(1, n * n);
+    }
+}
+
+/////////////////////////////////////////////////////////////
+
+  public int dijkstra(int source, int dist) {
+        int[] distance = new int[noOfVertex];
+        Set<Node> set = new HashSet<>();
+        Queue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(node -> node.weight));
+        Arrays.fill(distance, Integer.MAX_VALUE);
+
+        distance[source] = 0;
+        pq.add(new Node(source, 0));
+
+        while(!pq.isEmpty()) {
+            Node curr = pq.poll();
+
+            for(Node nbr : adj.get(curr.node)) {
+                if(curr.weight + nbr.weight < distance[nbr.node]) {
+                    distance[nbr.node] = curr.weight + nbr.weight;
+
+                    if(pq.)
+                }
+            }
+        }
+
+        return distance[dist];
+    }
+
+   /////////////////////
