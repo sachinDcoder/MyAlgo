@@ -118,9 +118,21 @@ myalgo/graph/cycledetection/directedgraph/DirectedGraph.java
  myalgo.graph.cycledetection.directedgraph.DirectedGraph
 myalgo/graph/cycledetection/directedgraph/DirectedGraphCycleMain.java
  myalgo.graph.cycledetection.directedgraph.DirectedGraphCycleMain
+myalgo/graph/dijkshtra/Node.java
+ myalgo.graph.dijkshtra.Node
+myalgo/graph/shortestgridpath/ShortestGridUsingTreeSetMain.java
+ myalgo.graph.shortestgridpath.ShortestGridUsingTreeSetMain
+myalgo/graph/shortestgridpath/ShortestGridMain.java
+ myalgo.graph.shortestgridpath.ShortestGridMain
+myalgo/graph/boggleboard/Trie.java
+ myalgo.graph.boggleboard.Trie
+myalgo/graph/boggleboard/Node.java
+ myalgo.graph.boggleboard.Node
+myalgo/graph/boggleboard/BoardMain.java
+ myalgo.graph.boggleboard.BoardMain
+myalgo/graph/shortestgridpath/Node.java
+ myalgo.graph.shortestgridpath.Node
 myalgo/graph/dijkshtra/DijkshtraMain.java
  myalgo.graph.dijkshtra.DijkshtraMain
 myalgo/graph/dijkshtra/Graph.java
  myalgo.graph.dijkshtra.Graph
-myalgo/graph/dijkshtra/Node.java
- myalgo.graph.dijkshtra.Node

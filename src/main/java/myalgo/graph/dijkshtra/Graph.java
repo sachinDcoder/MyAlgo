@@ -22,25 +22,25 @@ public class Graph {
 
     public int dijkstra(int source, int dist) {
         int[] distance = new int[noOfVertex];
-        Set<Node> set = new HashSet<>();
+//        Set<Node> set = new HashSet<>();
         Queue<Node> pq = new PriorityQueue<>(Comparator.comparingInt(node -> node.weight));
         Arrays.fill(distance, Integer.MAX_VALUE);
 
         distance[source] = 0;
         pq.add(new Node(source, 0));
-        set.add(new Node(source, 0));
+//        set.add(new Node(source, 0));
 
-        while(!set.isEmpty() && !pq.isEmpty()) {
+        while( !pq.isEmpty()) {
             Node curr = pq.poll();
 //            System.out.println("curr " + curr);
-            set.remove(curr);
+            pq.remove(curr);
 
             for(Node nbr : adj.get(curr.node)) {
                 if(curr.weight + nbr.weight < distance[nbr.node]) {
                     distance[nbr.node] = curr.weight + nbr.weight;
-                    set.remove(nbr);
+                    pq.remove(nbr);
                     Node newNode = new Node(nbr.node, distance[nbr.node]);
-                    set.add(newNode);
+//                    set.add(newNode);
                     pq.add(newNode);
                 }
             }

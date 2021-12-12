@@ -380,3 +380,79 @@ class Solution {
     }
 
    /////////////////////
+
+
+   package myalgo.graph.shortestgridpath;
+
+   import java.util.*;
+
+   public class ShortestGridMain {
+
+
+       public static void main(String[] args) {
+           int[][] grid = {
+                   {31, 100, 64, 12, 18},
+                   {10, 13, 47, 157, 6},
+                   {100, 113, 174, 11, 33},
+                   {88, 124, 41, 20, 140},
+                   {99, 32, 111, 41, 20},
+           };
+
+           System.out.println(findShortestDistance(grid));
+       }
+
+       private static int findShortestDistance(int[][] grid) {
+           int m = grid.length;
+           int n = grid[0].length;
+           int[][] dist = new int[m][n];
+
+           for(int i = 0; i < m; i++) {
+               Arrays.fill(dist[i], Integer.MAX_VALUE);
+           }
+
+           TreeSet<Node> nodes = new TreeSet<>(Comparator.comparing(node -> node.distance));
+
+           dist[0][0] = grid[0][0];
+           nodes.add(new Node(0, 0, dist[0][0]));
+
+           int[] dx = {0, 0, 1, -1};
+           int[] dy = {-1, 1, 0, 0};
+
+           while(!nodes.isEmpty()) {
+               Node currNode = nodes.first();
+               int cx = currNode.x;
+               int cy = currNode.y;
+               int cDistance = currNode.distance;
+
+               System.out.println("cDistance " + cDistance);
+
+               nodes.remove(currNode);
+
+               for(int i = 0; i < 4; i++) {
+                   int nx = cx + dx[i];
+                   int ny = cy + dy[i];
+
+                   if (nx >= 0 && ny >= 0 && nx < m && ny < n && (cDistance + grid[nx][ny] < dist[nx][ny])) {
+                       Node temp = new Node(nx, ny, dist[nx][ny]);
+                       nodes.remove(temp);
+
+                       dist[nx][ny] = cDistance + grid[nx][ny];
+                       Node newNode = new Node(nx, ny, dist[nx][ny]);
+                       nodes.add(newNode);
+                   }
+               }
+           }
+
+           for(int i = 0; i < m; i++) {
+               for(int j = 0; j < n; j++) {
+                   System.out.print(dist[i][j] + " ");
+               }
+               System.out.println();
+           }
+
+           return dist[m - 1][n - 1];
+       }
+   }
+
+
+/////////////
